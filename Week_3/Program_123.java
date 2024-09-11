@@ -1,11 +1,11 @@
+
+// Method to replace all occurrences of a character with another character
 package Week_3;
 
 import java.util.Scanner;
 
 public class Program_123 {
 
-
-    // Method to replace all occurrences of a character with another character
     public static String replaceCharacter(String str, char oldChar, char newChar) {
         return str.replace(oldChar, newChar);
     }
